@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+  	<head>
+    		<meta charset="UTF-8" />
+    		<title>divパズルlv2</title>
+    		<link rel="stylesheet" href="css/style.css"/>
+  	</head>
+  	<body>
+    		<div class="wrapper">
+      			<div class="header">
+        				<div class="header-white">
+          					<div class="sample">
+          							<div class="header-red1"></div>
+          							<div class="header-red2"></div>
+			        					<div class="header-red3"></div>	
+										</div>
+        				</div>
+      			</div>
+      			<div class="main clearfix">
+								<div class="side"></div>
+								<div class="content-top clearfix">
+										<div class="content-bottom">
+												<div class="bottom-waku">
+														<div class="bottom-orange1"></div>		
+														<div class="bottom-orange2"></div>		
+														<div class="bottom-orange3"></div>
+												</div>		
+										</div>
+								</div>
+      			</div>
+      			<div class="footer"></div>
+    		</div>
+  	</body>
+</html>
+
+.wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 100px;
+	background: #141f40;
+}
+
+.header-white {
+	width: 160px;
+	height:60px;
+	margin: 20px;
+	background-color: white;
+	float: right;
+	display: flex;
+	justify-content: center;
+}
+
+.sample{
+	width: 140px;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.header-red1 {
+width: 40px;
+height: 40px;
+background-color: #a9004b;
+}
+
+.header-red2 {
+width: 40px;
+height: 40px;
+background-color: #a9004b;
+}
+
+.header-red3 {
+width: 40px;
+height: 40px;
+background-color: #a9004b;
+}
+
+.side {
+	float: left;
+	width: 150px;
+	height: 250px;
+	background: #80bfa8;
+}
+
+.content-bottom {
+	float: left;
+	width: 250px;   
+	height: 250px;
+	background: #8c2727;
+}
+
+.bottom-waku {
+	margin: 40px 0px 0px 40px;
+}
+
+.bottom-orange1 {
+	width: 140px;
+	height: 40px;
+	background-color:#eb6101;
+	border: 5px solid white;
+}
+
+.bottom-orange2 {
+	width: 140px;
+	height: 40px;
+	background-color:#eb6101;
+	border: 5px solid white;
+	position: relative;
+	top: 10px;
+}
+
+.bottom-orange3 {
+	width: 140px;
+	height: 40px;
+	background-color:#eb6101;
+	border: 5px solid white;
+	position: relative;
+	top: 20px;
+}
+
+.footer {
+height: 100px;
+background-color: #d98d30;
+}
+
+.clearfix:after {
+content: "";
+display: block;
+clear: both;
+}       
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 479px) { 
+
+.wrapper {
+		width: 200px;
+		margin: 0 auto;
+}
+
+.header {
+		height: 220px;
+		background: #141f40;
+}
+
+.header-white {
+		width: 60px;
+		height:180px;
+		margin: 20px 70px 20px 70px;
+		background-color: white;
+}
+
+.sample {
+		display:block ;
+		width: 40px;
+		height: 40px;
+		margin:15px 10px 10px 10px;
+}
+
+.header-red1{
+		background-color: #a9004b;
+}
+
+.header-red2{
+	background-color: #a9004b;
+	margin-top: 15px;
+}
+
+.header-red3{
+		background-color: #a9004b;
+    margin-top: 15px;
+}
+
+.side {
+		width: 200px;
+		height: 130px;
+		background: #80bfa8;
+}
+
+.content-bottom {
+	float: left;
+	width: 200px;   
+	height: 240px;
+	background: brown;
+}
+
+.bottom-waku {
+	margin: 20px 0px 0px 30px;
+}
+
+.bottom-orange1 {
+	width: 130px;
+	height: 50px;
+	background-color:#eb6101;
+	border: 5px solid white;
+}
+
+.bottom-orange2 {
+	width: 130px;
+	height: 50px;
+	background-color:#eb6101;
+	border: 5px solid white;
+	position: relative;
+	top: 10px;
+}
+
+.bottom-orange3 {
+	width: 130px;
+	height: 50px;
+	background-color:#eb6101;
+	border: 5px solid white;
+	position: relative;
+	top: 20px;
+}
+}
+
